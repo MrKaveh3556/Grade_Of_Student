@@ -246,6 +246,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "ویرایش اطلاعات";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // groupBox2
             // 
@@ -271,6 +272,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "ثبت اطلاعات";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Lesson_Grade1
             // 
@@ -362,6 +364,7 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "Add";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // button3
             // 
@@ -372,6 +375,7 @@
             this.button3.TabIndex = 6;
             this.button3.Text = "Update";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // Student_Name
             // 
